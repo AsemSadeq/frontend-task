@@ -1,0 +1,26 @@
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.25rem;
+}
+
+.inputWrapper label{
+    text-transform: capitalize;
+}
+
+.inputWrapper input, .inputWrapper select {
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+    height: 2.6rem;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0.1rem 0.05rem 0.05rem;
+}
+
+.inputWrapper select {
+    appearance: none;
+    background: url('http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png') no-repeat right;
+    -webkit-appearance: none;
+    background-position-x: calc(100% - 0.75rem);
+    background-size: 0.8rem;
+}

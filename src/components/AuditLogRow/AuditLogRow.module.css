@@ -1,0 +1,25 @@
+.auditLogRow {
+    padding: 1.5rem 0;
+    display: grid;
+    column-gap: 0.5rem;
+    grid-template-columns: repeat(6, minmax(15.625rem, calc(100% / 6)));
+    border-bottom: 1px solid gray;
+    width: fit-content;
+    min-width: 100%;
+}
+
+.colLabel {
+    text-transform: capitalize;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.colLabel button {
+    cursor: pointer;
+    margin-left: 1rem;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color: blue;
+    border: 0;
+}

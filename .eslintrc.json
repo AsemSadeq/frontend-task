@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended", "next"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"]
+  }
+}
